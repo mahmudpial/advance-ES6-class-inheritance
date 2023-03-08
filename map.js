@@ -4,7 +4,7 @@ for (const number of numbers) {
   const divided = number / 2;
   outPut.push(divided);
 }
-console.log(outPut);
+// console.log(outPut);
 
 // ........................................................................
 
@@ -22,9 +22,28 @@ function getDoubble(number) {
 function DoubbleIt(num) {
   return num * 2;
 }
-// simple array function which i use this function in another function poperty and as like a simple operation
+/* simple array function which i use this function in another function poperty and as like a simple operation */
+
 const doubleNew = (num) => num * 2;
 
 const result = getDoubble(numbers);
 
 console.log(result);
+
+// ..............................................................................................
+/* 
+purpose :
+  1.get an array.
+  2.for every elements of the array do somethings.
+  3.store the result in a array.
+  4.return the array restult.
+
+
+*/
+const makeDouble = numbers.map(doubleNew);
+const makeDoubleDirect = numbers.map((num) => num * 2);
+const makeDoubleDirect2 = numbers.map((x) => x * 2);
+const makeDouble2 = [2, 4, 6, 8, 10, 12].map((x) => x * 2);
+
+// console.log(makeDouble);
+console.log(makeDouble2);
