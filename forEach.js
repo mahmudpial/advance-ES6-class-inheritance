@@ -10,3 +10,12 @@ const products = [
 ];
 
 products.forEach((product) => console.log(product.name));
+
+// ................................................
+
+let food = ["mango", "rice", "pepper", "pear"];
+food.forEach(function (foodItem) {
+  console.log("I want to eat " + foodItem);
+});
+
+// ......................................................
