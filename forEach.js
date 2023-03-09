@@ -9,4 +9,4 @@ const products = [
   { id: 1, name: "bike", price: 450000 },
 ];
 
-products.forEach((product) => console.log(product.price));
+products.forEach((product) => console.log(product.name));
